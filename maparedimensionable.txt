@@ -1,0 +1,18 @@
+Entonces hay que obtener el plugin rwdImageMaps.
+
+Y bueno, al final de tu código HTML, justo antes de /body, hay que agregar básicamente tres scripts:
+
+El script de jQuery (en caso de que no lo tengas).
+El script rwdImageMaps.
+El script que va a recalcular las dimensiones de la imagen deseada.
+ Entonces, estos tres pasos en código se ven así, y suponiendo que guardo los scripts en una carpeta llamada JS:
+
+
+O puedes llamar los siguientes scripts de manera externa (desde su ubicación original) si en un momento dado asó lo requirieras:
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script><!-- Latest compiled and minified CSS -->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"><script src="http://mattstow.com/experiment/responsive-image-maps/jquery.rwdImageMaps.min.js"></script>
+Ahora, podrás ver cómo la imagen funciona aún si se redimensiona ;-)
+
+Quizás también te interese: CÓMO MAPEAR UNA IMAGEN CON MapEdit.
